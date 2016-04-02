@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_77" class="java.beans.XMLDecoder">
+ <object class="jogo.Jogo" id="Jogo0">
+  <void id="BancoDeEquacoes0" property="bd">
+   <void property="bd">
+    <void method="put">
+     <int>1</int>
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="jogo.Equacao" id="Equacao0">
+        <void class="jogo.Equacao" method="getField">
+         <string>indiceOperador</string>
+         <void method="set">
+          <object idref="Equacao0"/>
+          <int>1</int>
+         </void>
+        </void>
+        <void property="expressao">
+         <string>2 - x = 0</string>
+        </void>
+        <void property="termoDesconhecido">
+         <int>1</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="jogo.Equacao" id="Equacao1">
+        <void class="jogo.Equacao" method="getField">
+         <string>indiceOperador</string>
+         <void method="set">
+          <object idref="Equacao1"/>
+          <int>2</int>
+         </void>
+        </void>
+        <void property="expressao">
+         <string>x * 4 = 24</string>
+        </void>
+        <void property="resultado">
+         <int>24</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="jogo.Equacao" id="Equacao2">
+        <void class="jogo.Equacao" method="getField">
+         <string>indiceOperador</string>
+         <void method="set">
+          <object idref="Equacao2"/>
+          <int>3</int>
+         </void>
+        </void>
+        <void property="expressao">
+         <string>5 / x = 5</string>
+        </void>
+        <void property="resultado">
+         <int>5</int>
+        </void>
+        <void property="termoDesconhecido">
+         <int>1</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="jogo.Equacao" id="Equacao3">
+        <void class="jogo.Equacao" method="getField">
+         <string>indiceOperador</string>
+         <void method="set">
+          <object idref="Equacao3"/>
+          <int>1</int>
+         </void>
+        </void>
+        <void property="expressao">
+         <string>x - 5 = 4</string>
+        </void>
+        <void property="resultado">
+         <int>4</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="jogo.Equacao" id="Equacao4">
+        <void class="jogo.Equacao" method="getField">
+         <string>indiceOperador</string>
+         <void method="set">
+          <object idref="Equacao4"/>
+          <int>1</int>
+         </void>
+        </void>
+        <void property="expressao">
+         <string>x - 1 = 7</string>
+        </void>
+        <void property="resultado">
+         <int>7</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="jogo.Equacao" id="Equacao5">
+        <void property="expressao">
+         <string>x + 7 = 9</string>
+        </void>
+        <void property="resultado">
+         <int>9</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="jogo.Equacao" id="Equacao6">
+        <void class="jogo.Equacao" method="getField">
+         <string>indiceOperador</string>
+         <void method="set">
+          <object idref="Equacao6"/>
+          <int>1</int>
+         </void>
+        </void>
+        <void property="expressao">
+         <string>6 - x = 4</string>
+        </void>
+        <void property="resultado">
+         <int>4</int>
+        </void>
+        <void property="termoDesconhecido">
+         <int>1</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="jogo.Equacao" id="Equacao7">
+        <void class="jogo.Equacao" method="getField">
+         <string>indiceOperador</string>
+         <void method="set">
+          <object idref="Equacao7"/>
+          <int>3</int>
+         </void>
+        </void>
+        <void property="expressao">
+         <string>x / 1 = 6</string>
+        </void>
+        <void property="resultado">
+         <int>6</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+   </void>
+  </void>
+  <void property="rodadasExecutadas">
+   <void method="add">
+    <object class="jogo.Rodada">
+     <void property="bancoDeEquacoes">
+      <object idref="BancoDeEquacoes0"/>
+     </void>
+     <void property="fim">
+      <long>1459632642485</long>
+     </void>
+     <void property="inicio">
+      <long>1459632609238</long>
+     </void>
+     <void property="itens">
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <object class="jogo.ItemRodada">
+         <void property="equacao">
+          <object idref="Equacao5"/>
+         </void>
+         <void property="resposta">
+          <int>2</int>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="jogo.ItemRodada">
+         <void property="equacao">
+          <object idref="Equacao7"/>
+         </void>
+         <void property="resposta">
+          <int>4</int>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="jogo.ItemRodada">
+         <void property="equacao">
+          <object idref="Equacao2"/>
+         </void>
+         <void property="resposta">
+          <int>1</int>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="jogo.ItemRodada">
+         <void property="equacao">
+          <object idref="Equacao3"/>
+         </void>
+         <void property="resposta">
+          <int>1</int>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="jogo.ItemRodada">
+         <void property="equacao">
+          <object idref="Equacao6"/>
+         </void>
+         <void property="resposta">
+          <int>1</int>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="jogo.ItemRodada">
+         <void property="equacao">
+          <object idref="Equacao0"/>
+         </void>
+         <void property="resposta">
+          <int>1</int>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="jogo.ItemRodada">
+         <void property="equacao">
+          <object idref="Equacao1"/>
+         </void>
+         <void property="resposta">
+          <int>1</int>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="jogo.ItemRodada">
+         <void property="equacao">
+          <object idref="Equacao4"/>
+         </void>
+         <void property="resposta">
+          <int>1</int>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+     <void property="nivel">
+      <int>1</int>
+     </void>
+     <void property="pontuacao">
+      <int>2</int>
+     </void>
+     <void property="tempoTotal">
+      <long>33</long>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
